@@ -36,9 +36,10 @@ check http://localhost:8080
 ## TODO
 ### back-end
 - 初期schema流し込み
-- 固定portでの起動（application.ymlに設定）
 - doma2でのORマッパー確認
+-> https://qiita.com/hasehiro/items/56bf17a71d4acd1c36d9
 - お試し的なCRUDの作成
+-> まずはTODOリストかな
 
 ### front-end
 - axiosでのAPI疎通確認
