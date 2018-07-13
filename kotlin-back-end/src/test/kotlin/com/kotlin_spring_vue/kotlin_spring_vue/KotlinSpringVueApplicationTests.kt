@@ -1,4 +1,3 @@
-package com.kotlin_spring_vue.kotlin_spring_vue
 
 import org.junit.Test
 import org.junit.runner.RunWith

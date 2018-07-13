@@ -4,6 +4,35 @@ kotlin spring + vue.jsで作るWebアプリケーションです。友人と現�
 ## アプリケーション説明
 未定
 
+## How to Build
+
+**Back-end**
+
+```
+$  cd kotlin-back-end
+$ ./gradlew bootRun
+or
+$ ./gradlew build
+check http://localhost:9000
+
+IntelliJで開く場合
+IntelliJ の kotlin が更新されてることを確認 (IntelliJのpluginから確認)
+/kotlin-back-end のディレクトリから開き import project でプロジェクトを開く
+gradle をビルドして問題なければ、KotlinSpringVueApplication.kt をRunして実行
+
+```
+
+
+**Front-end**
+
+```
+$  cd vue-front-end
+$  npm install
+$  npm run dev
+check http://localhost:8080
+```
+
+
 ## TODO
 ### back-end
 - 初期schema流し込み
