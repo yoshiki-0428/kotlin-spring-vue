@@ -19,7 +19,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group = 'com.demo'
+group = 'com.kotlin_spring_vue'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 compileKotlin {
@@ -44,7 +44,6 @@ dependencies {
 	// spring
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	runtime('org.springframework.boot:spring-boot-devtools')
 
 	// kotlin
@@ -52,11 +51,10 @@ dependencies {
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	compile("org.jetbrains.kotlin:kotlin-reflect")
 
-	// database
-	compile('org.seasar.doma.boot:doma-spring-boot-starter:1.0.2')
+	// db
 	runtime('mysql:mysql-connector-java')
 
-	// specification
+	// test
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('org.springframework.security:spring-security-test')
 }

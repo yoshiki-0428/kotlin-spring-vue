@@ -1,4 +1,4 @@
-package com.demo.demo
+package com.kotlin_spring_vue.kotlin_spring_vue
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class DemoApplicationTests {
+class KotlinSpringVueApplicationTests {
 
 	@Test
 	fun contextLoads() {
