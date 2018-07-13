@@ -1,4 +1,4 @@
-package com.kotlin_spring_vue.kotlin_spring_vue
+package com.kotlin_spring_vue
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
